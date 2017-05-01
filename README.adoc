@@ -1,0 +1,3 @@
+# Persistence Support classes
+
+This project contains supporting classes used by some of my Java projects.
