@@ -1,8 +1,8 @@
 pipeline {
     agent any
 
-    stages {
-        dir('auth-server') {
+    dir('auth-server') {
+        stages {
             stage('Build & Unit Test') {
                 steps {
                     sh "./gradlew -Dgradle.user.home=$HOME/.gradle clean build"
