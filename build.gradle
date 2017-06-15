@@ -75,6 +75,7 @@ task integrationTest(type: Test) {
 
     testClassesDir = sourceSets.integrationTest.output.classesDir
     classpath = sourceSets.integrationTest.runtimeClasspath
+    println classpath
 //    outputs.upToDateWhen { false }
     testLogging {
         events "passed", "skipped", "failed"
